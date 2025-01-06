@@ -19,8 +19,8 @@ long long CollatzSequenceLength(long long n, std::unordered_map<long long, long 
 
 int main() {
 	constexpr int kLimit = 1'000'000; // Compute for numbers under this limit
-	long long max_chain_length = 0;
-	long long starting_number = 0;
+	long long max_chain_length = 0; // Counter for the length of the longest chain
+	long long starting_number = 0; // Counter for the starting number with the longest chain
 
 	std::unordered_map<long long, long long> memo;
 
