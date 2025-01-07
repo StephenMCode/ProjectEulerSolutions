@@ -15,7 +15,7 @@ int SumOfMultiples(int limit) {
 
 int main()
 {
-	constexpr int kLimit = 1000; // Limit below which we find the sum
+	constexpr int kLimit = 1'000; // Limit below which we find the sum
 	int result = SumOfMultiples(kLimit);
 
 	std::cout << "The sum of all multiples of 3 or 5 below " << kLimit
